@@ -1,0 +1,11 @@
+<IfModule mod_rewrite.c>
+
+# Enables mod_rewrite
+RewriteEngine on
+
+# Sets the base folder of the SEO sample
+RewriteCond %{SCRIPT_FILENAME} !-f
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteRule ^(.*)$ index.php?cod=$1
+
+</IfModule>

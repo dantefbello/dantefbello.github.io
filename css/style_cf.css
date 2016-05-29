@@ -1,0 +1,411 @@
+/*
+File Name: style_cf.css
+*/
+
+/* body */
+	body {
+		background:#2f5a72;
+		color:#696969;
+	}
+
+/* layouts */
+	/* containers */
+	#con{
+		background: #ffffff;
+	}
+
+	#con0{
+		background: #fff url(../images/home_page_background_01.png) top repeat-x;
+	}
+
+	#con0_sub{
+		background: #fff url(../images/sub_page_background_01.png) top repeat-x;
+	}
+
+	#con01{
+		background: transparent url(../images/home_page_background_02.png) center top no-repeat;
+	}
+
+	#con01_sub{
+		background: transparent url(../images/sub_page_background_02.png) center top no-repeat;
+	}
+
+	/* header */
+	#header{
+		background:#fff;
+	}
+
+/* header links & slogan */
+	.top_links{
+		color:#bdcccf;
+	}
+
+	.top_links a{
+		color:#bdcccf;
+	}
+
+	.top_links a:hover{
+		color:#1f7e95;
+	}
+
+	.top_slogan, .top_slogan h4, .top_slogan h4 a, .top_slogan h4 a:hover{
+		color:#1f7e95;
+	}
+
+/* slider area */
+	#slider_con{
+		background: transparent url(../images/slider_background.png) bottom no-repeat;	
+	}
+
+	.slide{
+		background: transparent url(../images/slider_background.png) bottom no-repeat;	
+	}
+
+	/* sliding texts on main page slider */
+	/* slider title text */
+	.sliding_text_text{
+		color:#868A8A;
+	}
+
+	/* slider title title*/
+	.sliding_text_text h1{
+		color:#2f5a72;
+	}
+
+	/* slider text link */
+	.sliding_text_text  h1 a{
+		color:#2f5a72;
+	}
+
+	.sliding_text_text  h1 a:hover{
+		color:#18A3C5;
+	}
+
+	/* slider title 2*/
+	.sliding_text_text h2{
+		color:#32a9c7;
+	}
+
+	/* slider title 2 link */
+	.sliding_text_text  h2 a{
+		color:#32a9c7;
+	}
+
+	/* slider numbers*/
+
+	/* active number style*/
+	#numbers  li a { 
+		background: #d4e6eb;	
+	}
+
+	#numbers  li a.activeSlide { 
+		background: #B7D6DF;	
+	}
+
+	.border{
+		border:1px solid #E6F0F2;
+	}
+	
+
+/* page navigation */
+	 #sub_nav{
+		color:#80b6c3;
+	 }
+	#sub_nav  a{	
+		color:#478898;
+	}
+
+	#sub_nav a:hover{
+		color:#80b6c3
+	}
+
+/* sub page header  */
+	#sub_page_header .right h2{
+		color:#80b6c3;
+	}
+
+/* sub page */
+	.sub_page{
+		cbackground:url(../images/sub_background.png) 689px 0  repeat-y;
+	}
+
+	.sub_page.clean{
+		background:transparent;
+	}
+
+
+/* sub navigation */
+	#sub_menu  li{	
+		border-left:0px solid #E8F0F4;
+		border-bottom:1px solid #E8F0F4;
+	}
+
+	#sub_menu  li a{	
+		color:#80b6c3;
+		background:transparent url(../images/arrow.png)  left no-repeat;
+	}
+
+	#sub_menu  li a:hover{
+		color:#478898;
+		background:transparent;
+		background:url(../images/sq.png);
+		background-position: left;	
+		background-repeat: no-repeat;	
+	}
+
+
+/* boxes  */
+	/* home page left side boxes  */
+	.magnifier{
+		background:url(../images/magnifier.png) center no-repeat;
+	}
+	
+	.product_image {
+		background:url(../images/p_detail.png) center no-repeat;
+	}
+
+	.product{
+		border-left:1px solid #E8F0F4;
+	}
+
+	.play{
+		background:url(../images/play.png) center no-repeat;
+	}
+	
+	.box .image{
+		border:1px solid #E8F0F4;
+	}
+	
+	.box .image.product_image{
+		border-top:1px solid #E8F0F4;
+		border-bottom:1px solid #E8F0F4;
+	}
+	
+	.box.middle .image{
+		border-top:1px solid #E8F0F4;
+		border-bottom:1px solid #E8F0F4;
+	}
+	
+	.price{
+		color:#80b6c3;
+	}
+
+	.box .textarea h2{
+		color:#cbcbcb;
+	}
+	
+	.box .textarea h2 a{
+		color:#cbcbcb;
+	}
+	
+	.box .textarea h2 a:hover{
+		color:#1f7e95;
+	}
+	
+	.box .textarea{
+		color:#909090;
+	}
+	
+/* product detail */
+	.image{
+		border:1px solid #E8F0F4;
+	}
+	
+	#product_detail_right h2{
+		color:#1f7e95;
+	}
+	
+/* Products detail tabs */
+	#tabs ul li{
+		color:#80b6c3;
+		border-left:1px solid #E6F0F2;
+		border-top:1px solid #E6F0F2;
+		border-right:1px solid #E6F0F2;
+	}
+
+	#tabs ul li.active, #tabs ul li:hover{
+		border:1px solid #E6F0F2;
+		color:#80b6c3;
+		background:#E6F0F2;
+	}
+
+	#tabs #content{
+		border:1px solid #E6F0F2;
+	}
+
+/* read more button  */
+	a.read_more{
+		color:#86B1BF;
+		background:#e7f1f4 url(../images/arrow.png) 94% 10px no-repeat;
+	}
+
+	a.read_more:hover{
+		color:#86B1BF;
+		background:#DEEBEF url(../images/arrow_on.png) 94% 10px no-repeat;
+	}
+
+/*contact form validation*/
+	#validate_form	label{
+			color:#2f5a72;
+		}
+
+	#validate_form	label.error {
+			color: red;
+			border: 0px solid red;
+		}
+
+	#validate_form	.error{
+			color: red;
+			border: 1px solid red;
+		}
+
+/*	Forms */
+	input, select, textarea{
+		color:#696969;
+		border:1px solid #E8F0F4;
+	}
+
+	.button{
+		background:#2f5a72;
+	}
+
+	.button:hover{
+		background:#e7f1f4;
+		color:#2f5a72;
+	}
+
+/* blog */
+ 	.blog_box .dateandcategories{
+		color:#478898;
+		border-top:1px solid #E8F0F4;
+		border-bottom:1px solid #E8F0F4;
+	}
+
+	.blog_box .aligncenter.post_image{
+		border-bottom:1px solid #E8F0F4;
+		border-top:0px;
+	}
+
+	.line{
+		border-bottom:1px solid #E8F0F4;
+	}
+
+/* paging*/
+	 /* paging active*/
+	#paging ul li.active a{
+		background:#E8F0F4;
+		color:#8EB8CA;
+		border:1px solid #E8F0F4;
+	}
+
+	 /* paging link*/
+	#paging ul li a{
+		border:1px solid #E8F0F4;
+		color:#cbcbcb;
+	}
+
+	 /* paging mouseover*/
+	#paging ul li a:hover{
+		border:1px solid #E8F0F4;
+		background:#E8F0F4;
+		color:#8EB8CA;
+	}
+
+/* footer */
+	#footer{
+		color:#A4C6D2;
+	}
+
+	#footer .list ul li, #footer .social_icons{
+		border-bottom:1px solid #637278;
+	}
+
+	#footer .list ul li a{
+		color:#A4C6D2;
+	}
+
+	#footer .list ul li a:hover {
+		color:#B7D3DD;
+		background: #254759;
+	}
+
+	#footer h4{
+		color:#d7e7ec;
+		background: #2f5a72;
+		border-bottom:1px solid #637278;
+	}
+
+/* links */
+	a{
+		color:#478898;
+	}
+
+	a:hover{
+		color:#376A77
+	}
+
+/* headings*/
+	h1,h2{ 
+		color:#478898;
+	}
+
+	h3,h4,h5,h6 { 
+		color:#a5c9d3;
+	}
+
+/* images and alignments */
+	img.aligncenter{
+		border:1px solid #E8F0F4;
+	}
+
+	img.alignleft{
+		border:1px solid #E8F0F4;
+	}
+
+	img.alignright{
+		border:1px solid #E8F0F4;
+	}
+
+	/* Lists */
+	/* content list */
+	 .content ul , .content ol  {	
+		border-top:1px solid #EBEBEB;
+	}
+
+	 .content li{
+		border-bottom:1px solid #EBEBEB;
+	}
+
+/* tables */
+	table{
+		border:1px solid #ededed;
+	}
+
+	table caption strong{
+		color: #478898;
+	}
+
+	table caption{
+		background-color: transparent;
+		border-bottom:1px solid #ededed;
+		color: #478898;
+	}
+
+	table th {
+		background: transparent url(../images/sub_back.png) top center repeat-x;	
+		background-color: #a5c9d3;
+		border-bottom:1px solid #ededed;
+		color: #478898;
+	}
+
+	table td {
+		background:#fff;
+		border-left:1px solid #ededed;
+		border-bottom:1px solid #ededed;
+	}
+
+/* text elements */
+	blockquote {
+		background:transparent url(../images/blockquote.png) left top no-repeat;
+		color:#A0A0A0;
+	}
